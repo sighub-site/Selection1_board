@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>יוצר לוחות בחירה | ד״ר ילנה פורטנוב וסיגלית הדס</title>
-  <meta name="description" content="יוצר לוחות בחירה למורות בכיתות א׳-ו׳ בכל תחומי הדעת. ממלאות פרטים, מעתיקות הנחיות ויוצרות ב-ChatGPT.">
-  <meta name="author" content="ד״ר ילנה פורטנוב וסיגלית הדס">
+  <title>יוצר לוחות בחירה | ד״ר ילנה פורטנוב נאמן וסיגלית הדס</title>
+  <meta name="description" content="יוצר לוחות בחירה למורות בכיתות א׳-ט׳ בכל תחומי הדעת. ממלאות פרטים, מעתיקות הנחיות ויוצרות ב-ChatGPT או ב-Gemini.">
+  <meta name="author" content="ד״ר ילנה פורטנוב נאמן וסיגלית הדס">
   <style>
     :root{--ink:#163e45;--teal:#1f6867;--paper:#faf8f1;--gold:#dc9b4f;--line:#d4dcd3;--muted:#53696a}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--paper);font-family:Arial,sans-serif;line-height:1.65}a{color:inherit}a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:5px}a{text-decoration:none}.container{width:min(1140px,calc(100% - 48px));margin:auto}
@@ -17,23 +17,24 @@
     .creators{display:grid;grid-template-columns:1fr 1.3fr;gap:70px;align-items:start}.names{font-size:25px;line-height:1.8;margin:18px 0 0}.creators p{margin:0;color:var(--muted)}details{border-bottom:1px solid var(--line);padding:18px 0}summary{cursor:pointer;font-weight:700;font-size:16px}details p{font-size:15px;margin:13px 0 0;max-width:720px;color:var(--muted)}footer{padding:26px 0;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}.footrow{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
     @media(max-width:900px){.hero{gap:28px;padding:55px 0}.board-frame{padding:15px}.tile{min-height:88px;font-size:11px}.section-heading{gap:25px}.process{grid-template-columns:1fr 1fr}.creators{gap:30px}}
     @media(max-width:650px){.container{width:calc(100% - 32px)}.topbar{min-height:82px}.brand{font-size:17px}nav{gap:13px;font-size:12px}nav a:last-child{display:none}.hero{grid-template-columns:1fr;padding:40px 0 58px;gap:36px}h1{font-size:49px;letter-spacing:-1px}.lead{font-size:18px}.board-frame{margin:0 8px}.tile{font-size:13px;min-height:95px}.section{padding:48px 0}.section-heading,.creators{grid-template-columns:1fr;gap:20px}.outputs{grid-template-columns:1fr;gap:15px}.output{padding-top:15px}.process{gap:25px 18px}h2{font-size:30px}.names{font-size:23px}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media(max-width:650px){.topbar{flex-wrap:wrap;padding-block:14px;gap:12px}nav{flex-wrap:wrap;gap:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
   </style>
 </head>
 <body>
   <header><div class="container topbar">
     <a class="brand" href="#top" aria-label="יוצר לוחות בחירה, ראש הדף"><span class="brandmark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>יוצר לוחות בחירה</span></a>
-    <nav aria-label="ניווט ראשי"><a href="#outputs">מה יוצרים?</a><a href="#process">איך עובדים?</a><a href="#creators">היוצרות</a></nav>
+    <nav aria-label="ניווט ראשי"><a href="#outputs">מה יוצרים?</a><a href="#why">למה לוח בחירה?</a><a href="#process">איך עובדים?</a><a href="#creators">היוצרות</a></nav>
   </div></header>
   <main id="top">
     <section class="container hero">
       <div>
-        <div class="eyebrow">למורות בכיתות א׳-ו׳ · כל תחומי הדעת</div>
+        <div class="eyebrow">למורות בכיתות א׳-ט׳ · כל תחומי הדעת</div>
         <h1>לוח אחד.<br>כמה דרכים ללמוד.</h1>
-        <p class="lead">מתכננות למידה עם בחירה, משלבות חומרים שכבר הכנתן, ויוצרות משימות שמתאימות למטרה ולכיתה שלכן.</p>
+        <p class="lead">כלי למורות ולמורים שרוצים לתכנן תרגול מגוון סביב מטרת למידה משותפת, לשלב חומרים קיימים ולהתאים את ההוראה לתלמידים בכיתה.</p>
         <div class="actions"><a class="button" href="start.html">מתחילות ליצור לוח</a><a class="textlink" href="#outputs">מה אפשר ליצור</a></div>
-        <p class="availability">אפשר להתחיל עכשיו באמצעות העתקת ההנחיות לשיחה ב-ChatGPT.</p>
-        <p>השימוש בעמוד חינמי. אין צורך בהתקנת תוסף. זמינות כלי ChatGPT כפופה לתנאי החשבון שלכן.</p>
+        <p class="availability">אפשר להתחיל עכשיו באמצעות העתקת ההנחיות לשיחה ב-ChatGPT או ב-Gemini.</p>
+        <p>השימוש בעמוד חינמי. אין צורך בהתקנת תוסף. זמינות כלי ChatGPT ו-Gemini כפופה לתנאי החשבון שלכן.</p>
       </div>
       <div class="board-frame" aria-label="המחשה ללוח בחירה עם משימת חובה ושמונה אפשרויות">
         <div class="board-label"><strong>אותה מטרה. דרכים מגוונות.</strong><span>לוח לדוגמה</span></div>
@@ -45,7 +46,7 @@
         <p class="sample-caption">המחשה בלבד. המשימות וכללי הבחירה נקבעים לפי המטרה והכיתה.</p>
       </div>
     </section>
-    <section class="section" id="outputs"><div class="container">
+    <section class="section" id="why"><div class="container"><div class="eyebrow">למה הכלי נחוץ?</div><h2>אותה כיתה. צרכים שונים. מטרה משותפת.</h2><p style="max-width:850px;font-size:18px">תלמידים מגיעים לשיעור עם ידע קודם, קצב עבודה, תחומי עניין וצורכי תמיכה שונים. לוח בחירה עוזר למורה לארגן תרגול של אותו יעד בכמה דרכים, לתת לתלמידים בחירה ולעודד עצמאות ובקרה על הלמידה.</p><div class="outputs"><article class="output"><h3>הוראה דיפרנציאלית</h3><p>משנים את מידת התמיכה, את המורכבות ואת הקצב לפי הצורך. אפשר להציע דוגמה, רמזים, בנק מילים או אתגר העמקה, ולשנות את התמיכה לאורך הדרך.</p></article><article class="output"><h3>תרגול בדרכים מגוונות</h3><p>משלבים קריאה, המחשה, שיח, משחק, התנסות ויצירה, לפי המטרה והמקצוע. הגיוון מאפשר לתלמידים להתנסות ולהביע הבנה בכמה דרכים, בלי לשייך אותם לסגנון למידה קבוע.</p></article><article class="output"><h3>תכנון נוח למורה</h3><p>מתחילים מהחומרים שכבר מוכנים, מגדירים מטרת למידה ומחליטים מה תהיה עדות להצלחה. המורה בודקת את התוכן ומתאימה את התוצרים לכיתה לפני ההפעלה.</p></article></div><p class="teacher-note">הכלי נועד לתכנון תרגול ובחירה. השיפוט הפדגוגי, התאמת רמת האתגר וההיכרות עם התלמידים נשארים בידי המורה.</p><p><a class="textlink" href="start.html">תכנון בעזרת ChatGPT או Gemini</a> · <a class="textlink" href="genially.html">תכנון והפעלה ב-Genially</a></p></div></section><section class="section" id="outputs"><div class="container">
       <div class="section-heading"><div><div class="eyebrow">מהתכנון להפעלה בכיתה</div><h2>חומרים שאפשר לעבוד איתם.</h2></div><p>ההנחיות מסייעות לתכנן את המשימות ולהכין תוצרים דיגיטליים ומודפסים, בהתאם לכלים הזמינים בחשבון.</p></div>
       <div class="outputs">
         <article class="output"><span class="num">01 / במחשב</span><h3>לוח אינטראקטיבי</h3><p>משימות שנפתחות מתוך הלוח, תמונות מתאימות, בדיקת תשובות סגורות, מחוונים למשימות פתוחות ומעקב אחר ההתקדמות.</p></article>
@@ -63,20 +64,13 @@
       </div>
       <p class="teacher-note">יש לכן משחק מוכן או מרכזון אהוב? מתחילות ממנו. המטרה היא להוסיף רק את מה שחסר לכן.</p>
     </div></section>
-    <section class="section" id="creators"><div class="container creators">
-      <div><div class="eyebrow">היוצרות</div><h2>יוצר לוחות בחירה</h2><div class="names">ד״ר ילנה פורטנוב<br>וסיגלית הדס</div></div>
-      <div><p>כלי למורות שרוצות לאפשר כמה דרכים לתרגול ולהבנה של אותה מטרת למידה, תוך התחשבות בחומרים שכבר קיימים, בזמן ההכנה ובאופן העבודה בכיתה.</p>
-        <details><summary>למי מיועד הכלי?</summary><p>למורות ולמורים בכיתות א׳-ו׳ בכל תחומי הדעת: עברית, אנגלית, מתמטיקה, מדעים, תנ״ך, היסטוריה, גאוגרפיה, אומנויות ולמידה משולבת.</p></details>
-        <details><summary>האם חייבים מחשבים בכיתה?</summary><p>לא. אפשר להכין ערכה לעבודה על נייר, עם לוח בחירה, משימות וקלפי משחק לפי הצורך.</p></details>
-        <details><summary>האם צריך להכין הכול מחדש?</summary><p>לא. התכנון מתחיל במה שכבר יש לכן. משימות חדשות משלימות את החסר ונבדקות מול מטרת הלמידה.</p></details>
-      </div>
-    </div></section>
+    <section class="section" id="creators"><div class="container"><div class="eyebrow">הרעיון והפיתוח</div><h2>על היוצרות</h2><div class="outputs" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));margin-top:30px"><article class="output"><h3>ד"ר ילנה פורטנוב נאמן</h3><p>חוקרת ומרצה לחינוך מתמטי, מומחית לפיתוח חשיבה מתמטית, הוראה מותאמת וטיפוח מיינדסט מתמטי.</p><p>עוסקת במחקר, בפיתוח מודלים פדגוגיים חדשניים ובליווי מורים וצוותים חינוכיים, במטרה להפוך את למידת המתמטיקה לחוויה משמעותית, מעמיקה ומותאמת לכל תלמיד ותלמידה.</p><p style="margin-top:15px"><a class="textlink" href="mailto:yelena.neeman@gmail.com"><bdi dir="ltr">yelena.neeman@gmail.com</bdi></a></p></article><article class="output"><h3>סיגלית הדס</h3><p>מורה בבית הספר היסודי, עוסקת בהוראת מתמטיקה ובפיתוח חומרי הוראה דיגיטליים ומודפסים. משלבת למידה מבוססת משחק, בחירה וכלים טכנולוגיים בעבודה בכיתה.</p><p>פיתחה את היישום המעשי ואת ההנחיות בעזרת בינה מלאכותית, בהשראת הרעיון הפדגוגי של ד"ר ילנה פורטנוב נאמן.</p><p style="margin-top:15px"><a class="textlink" href="mailto:sigalitha@gmail.com"><bdi dir="ltr">sigalitha@gmail.com</bdi></a></p></article></div><details><summary>למי מיועד הכלי?</summary><p>למורות ולמורים בכיתות א׳-ט׳, ביסודי ובחטיבת הביניים, בכל תחומי הדעת. התכנון מותאם לכיתה, למטרת הלמידה ולידע הקודם.</p></details><details><summary>האם צריך חשבון בתשלום?</summary><p>אפשר להעתיק את ההנחיות ל-ChatGPT או ל-Gemini. בכל אחד מהם יש כלים ומכסות לפי החשבון, כולל במסלולים החינמיים. אפשר גם לעבוד במסלול Genially ולמלא את תכנון המשימות ידנית, בלי שיחה עם AI.</p></details></div></section>
     <section class="section" id="support"><div class="container">
       <div class="eyebrow">יצירת קשר ותמיכה</div><h2>נשמח לשמוע מכן.</h2>
       <p>לשאלות, להצעות ולדיווח על תקלה בתוסף:</p>
       <a class="textlink" href="mailto:sigalitha@gmail.com"><bdi dir="ltr">sigalitha@gmail.com</bdi></a>
     </div></section>
   </main>
-  <footer><div class="container footrow"><span>יוצר לוחות בחירה · ד״ר ילנה פורטנוב וסיגלית הדס</span><span><a href="support.html">תמיכה</a> · <a href="privacy.html">פרטיות</a> · <a href="terms.html">תנאי שימוש</a></span></div></footer>
+  <footer><div class="container footrow"><span>יוצר לוחות בחירה · ד״ר ילנה פורטנוב נאמן וסיגלית הדס</span><span><a href="support.html">תמיכה</a> · <a href="privacy.html">פרטיות</a> · <a href="terms.html">תנאי שימוש</a></span></div></footer>
 </body>
 </html>
